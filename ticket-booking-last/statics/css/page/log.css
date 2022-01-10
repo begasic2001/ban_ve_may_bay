@@ -1,0 +1,67 @@
+.wrapper {
+  position: relative;
+  top: 8rem;
+}
+
+.background__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.backgroud__theme {
+  padding-top: 45%;
+  width: 50%;
+  background: url(../../../assets/img/bg_login.png) center/ contain no-repeat;
+}
+
+.container {
+  position: absolute;
+  right: 15%;
+  padding: 3rem;
+  max-width: 45rem;
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+}
+.container.sign-in {
+  top: 15%;
+}
+.container.sign-up {
+  top: 5%;
+}
+
+.container .form-data {
+  margin-top: 3rem;
+}
+
+.container .form-data h3 {
+  margin-bottom: 1rem;
+}
+
+.container .form-input > input {
+  padding: 1rem;
+  width: 100%;
+  height: 4rem;
+  outline: none;
+}
+
+.container .form-input > input + input,
+.container .form-data button {
+  margin-top: 2rem;
+}
+
+.container .form-choose {
+  margin-top: 2rem;
+}
+
+.container .form-choose input {
+  margin-left: 1rem;
+}
+
+.container .form-data button {
+  width: 100%;
+}
+
+.container .form-data p {
+  margin-top: 5rem;
+}

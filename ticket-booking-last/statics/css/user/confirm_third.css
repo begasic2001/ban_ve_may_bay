@@ -1,0 +1,74 @@
+:root {
+  /* ==== COLOR ==== */
+  --background-theme: #f3f3f3;
+  --primary-color: #628ce2;
+}
+
+/* ==== BASE ==== */
+.wrapper {
+  height: 100%;
+  background-color: var(--background-theme);
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+/* ==== PROGRESS ==== */
+.progress {
+  display: flex;
+  justify-content: center;
+  padding-top: 13rem;
+}
+
+.progress__step {
+  display: flex;
+}
+
+.progress__step--done {
+  opacity: 0.5;
+}
+
+.progress__num {
+  padding: 0.8rem 1.6rem;
+  width: 5rem;
+  height: 5rem;
+  border: solid 1px #000;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.progress__num--checked {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+}
+
+.progress__title {
+  line-height: 5rem;
+  padding: 0 3rem;
+  border-bottom: 1px dashed #000;
+}
+
+/* ==== BILL ==== */
+.container {
+  padding: 3rem;
+}
+
+.bill-result {
+  margin: 2rem;
+}
+
+.bill-result .total {
+  border-top: solid 1px #707070;
+  border-bottom: solid 1px #707070;
+}
+
+.bill-result td {
+  padding: 1rem;
+}
+
+.form__btn button {
+  display: block;
+  margin-left: 50rem;
+}

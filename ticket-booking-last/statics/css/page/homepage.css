@@ -1,0 +1,157 @@
+:root {
+  /* ==== COLOR ==== */
+  --background-theme: #f3f3f3;
+}
+
+.wrapper {
+  background-color: var(--background-theme);
+  margin-top: 8rem;
+}
+
+/* ==== INPUT FORM ==== */
+.slider {
+  position: relative;
+  padding-top: 45%;
+  background: url(../../../assets/img/plane1.png) center/ cover no-repeat;
+}
+
+.slider-search {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  padding: 2rem;
+  min-height: 50rem;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.slider-search h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.form-data {
+  margin-top: 2.5rem;
+}
+
+.form-input input,
+.form-input select {
+  padding: 1rem;
+  width: 100%;
+  height: 4rem;
+  outline: none;
+}
+
+.form-input .input-half {
+  width: 48%;
+}
+
+.form-input + .form-input {
+  margin-top: 2rem;
+}
+
+.form__choose {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.form__choose span {
+  float: left;
+  font-weight: bold;
+}
+
+.form__choose a + a {
+  margin-left: 3rem;
+}
+
+.form__choose a:hover {
+  color: blue;
+}
+
+.form__btn {
+  margin-top: 2.5rem;
+  width: 100%;
+}
+
+/* ==== CONTAINER ==== */
+.container {
+  padding: 10rem 0;
+}
+
+/* ---- Explore ---- */
+.explore {
+  background-color: #fff;
+  width: 1400px;
+  margin: auto;
+  padding: 5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.explore h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.explore h3 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.explore__locations {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto 0;
+  width: 95%;
+}
+
+.explore__locations .location + .location {
+  margin-left: 1rem;
+}
+
+.explore__locations .location {
+  flex-basis: 25%;
+  transition: 0.2s;
+}
+
+.explore__locations .location:hover {
+  transform: translateY(-1rem);
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.explore__locations .location__img img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* ---- Introduce ---- */
+.introduce {
+  background-color: #0a4b70;
+  width: 1400px;
+  margin: 20rem auto 0;
+  padding: 2rem;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduce__txt,
+.introduce__img {
+  flex-basis: 50%;
+  width: 50%;
+}
+
+.introduce__header h3,
+.introduce__body p {
+  color: #fff;
+  padding-top: 1rem;
+}
+
+.introduce__header h4 {
+  padding: 2rem 0;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: #f7ff00;
+}

@@ -1,0 +1,66 @@
+:root {
+  --background-theme: #F3F3F3;
+}
+
+/* ==== BASE ==== */
+.container {
+  margin-left: 13%;
+  padding: 4rem;
+  height: 100vh;
+  background-color: var(--background-theme);
+}
+
+.container h2 {
+  text-transform: capitalize;
+}
+
+/* ==== FORM ==== */
+.form-data {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.form-input {
+  width: 20%;
+}
+
+.form-input + .form-input,
+.form-data button {
+  margin-left: 5rem;
+}
+
+.form-data input {
+  padding: 1rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.form-data button {
+  margin-top: 2rem;
+}
+
+/* ==== RESULT ==== */
+.container iframe {
+  margin-top: 3rem;
+  width: 100%;
+  height: 80%;
+  border: none;
+}
+
+.data-result {
+  width: 100%;
+}
+
+.data-result, td, th {
+  border: solid 1px #000;
+  border-collapse: collapse;
+}
+
+.data-result td,
+.data-result th {
+  padding: 1rem;
+}
+
+.data-result td {
+  width: calc(100%/ 12);
+}

@@ -1,0 +1,70 @@
+:root {
+  /* ==== COLOR ==== */
+  --primary-color: #628ce2;
+  /* ==== SETUP ==== */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.default-font {
+  font-size: 1.6rem;
+}
+
+.title-font {
+  font-size: 2.4rem;
+}
+
+.medium-font {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-bor-outl-deco {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #000;
+}
+
+.btn {
+  height: 4rem;
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn--success {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.input-half {
+  width: 45%;
+  flex-basis: 45%;
+}
+
+.input-third {
+  width: 28%;
+  flex-basis: 28%;
+}
+
+.input-fourth {
+  width: 20%;
+  flex-basis: 20%;
+}

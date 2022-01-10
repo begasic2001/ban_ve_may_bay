@@ -1,0 +1,56 @@
+:root {
+  --background-sidebar: #A2CAFF;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 13%;
+  height: 100vh;
+  padding: 2rem;
+  background-color: var(--background-sidebar);
+}
+
+.sidebar__logo img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+.sidebar-function {
+  margin-top: 10rem;
+}
+
+.sidebar-list li {
+  list-style-type: none;
+}
+
+.sidebar-list li + li {
+  margin-top: 4rem;
+}
+
+.sidebar-list li a,
+.sidebar__logout a {
+  display: block;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+.sidebar-list li:hover a {
+  background-color: #8fb0db93;
+}
+
+.sidebar__logout {
+  position: absolute;
+  bottom: 3rem;
+  left: 2rem;
+  right: 2rem;
+}
+
+.sidebar__logout a:hover {
+  background-color: #ff4b4b;
+  color: #fff;
+}

@@ -1,0 +1,65 @@
+:root {
+  /* ==== COLOR ==== */
+  --primary-color: #628ce2;
+  /* ==== SETUP ==== */
+}
+
+/* ==== BASE ==== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  background-color: #fff;
+  box-shadow: 0 1px 5px #707070;
+  z-index: 1;
+}
+
+/* ==== COMMON ==== */
+.logo,
+.sign {
+  margin: 0 10rem;
+}
+
+/* ==== LOGO ==== */
+.logo {
+  width: 15rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* ==== NAVIGATION ==== */
+.nav {
+  width: 60rem;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav li a {
+  line-height: 8rem;
+  padding: 1rem 2.5rem;
+  border: solid 1px #707070;
+  border-radius: 5px;
+}
+
+.nav li:hover a {
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* ==== SIGN ==== */
+.sign__btn {
+  display: inline-block;
+  line-height: 8rem;
+}
+
+.sign__btn + .sign__btn {
+  margin-left: 2rem;
+}

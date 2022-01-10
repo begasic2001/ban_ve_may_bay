@@ -1,0 +1,80 @@
+.form-data {
+  margin-top: 2rem;
+}
+
+.form-input {
+  text-align: center;
+}
+
+.form-input input {
+  padding: 0.5rem;
+  width: 30%;
+}
+
+.form-input button {
+  padding: 0.5rem 1.5rem;
+}
+
+.data-result {
+  width: 100%;
+}
+
+.data-result, .table-edit, td, th {
+  border: solid 1px #000;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 1rem;
+}
+
+.data-result a {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.data-result a:hover {
+  opacity: 0.8;
+}
+
+.data-result .btn--edit {
+  background-color: #7a993c;
+}
+
+.data-result .btn--del {
+  background-color: #a84242;
+}
+
+/* ==== EDIT TABLE ==== */
+.table-edit {
+  width: 40%;
+  margin: 2rem auto 0;
+}
+
+.table-edit,
+.table-edit td,
+.table-edit th {
+  border: none;
+  text-align: right;
+}
+
+.table-edit tr th {
+  width: 30%;
+}
+
+.table-edit td input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.table-edit button {
+  width: 100%;
+  background-color: #7a993c;
+  color: #fff;
+}
+
+.container h2 {
+  text-transform: capitalize;
+}

@@ -1,0 +1,33 @@
+:root {
+  --background-theme: #F3F3F3;
+}
+
+.form-data {
+  width: 50%;
+  margin: 2rem auto 0;
+}
+
+.form-input input {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box .form-input {
+  width: 48%;
+}
+
+.input-box .form-input.input-third {
+  width: 30%;
+}
+
+.form-data button {
+  display: block;
+  margin: 3rem auto 0;
+  width: 100%;
+}

@@ -1,0 +1,106 @@
+:root {
+  /* ==== COLOR ==== */
+  --background-theme: #f3f3f3;
+  --primary-color: #628ce2;
+}
+
+/* ==== BASE ==== */
+.wrapper {
+  height: 100%;
+  background-color: var(--background-theme);
+}
+
+/* ==== PROGRESS ==== */
+.progress {
+  display: flex;
+  justify-content: center;
+  padding-top: 13rem;
+}
+
+.progress__step {
+  display: flex;
+}
+
+.progress__step--done {
+  opacity: 0.5;
+}
+
+.progress__num {
+  padding: 0.8rem 1.6rem;
+  width: 5rem;
+  height: 5rem;
+  border: solid 1px #000;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.progress__num--checked {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+}
+
+.progress__title {
+  line-height: 5rem;
+  padding: 0 3rem;
+  border-bottom: 1px dashed #000;
+}
+
+/* ==== PASSENGER ==== */
+.info h2 {
+  margin: 5rem auto 0;
+}
+
+.info__passenger {
+  margin: 4rem auto;
+  padding: 3rem;
+  width: 1200px;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.info__passenger h3 {
+  margin: 2rem 0 1rem;
+}
+
+.form-data .input-box {
+  display: flex;
+}
+
+.form-input input,
+.form-input select {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.form-data .input-box.row1 .form-input__main {
+  flex-basis: 45%;
+  margin-right: 2rem;
+}
+
+.form-data .input-box .form-input__other {
+  flex-basis: 20%;
+  margin-right: 2rem;
+}
+
+.form-data .input-box.row2 {
+  margin-top: 1.5rem;
+}
+
+.form__btn button {
+  display: block;
+  margin: auto;
+}
+
+.form-addition {
+  margin-top: 1.5rem;
+}
+
+.form-addition span {
+  margin-left: 1.5rem;
+}
+
+.form-addition input {
+  margin-left: 0.5rem;
+}

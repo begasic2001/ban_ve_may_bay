@@ -1,0 +1,65 @@
+/* ==== BASE ==== */
+.footer {
+  display: flex;
+  padding: 5rem;
+  background: #0a4b70 url(../../../assets/img/bg_footer.png) bottom right/ contain no-repeat;
+  color: #fff;
+}
+
+.about-us,
+.legal,
+.support {
+  flex-basis: 20%;
+  margin-left: 10rem;
+}
+
+.footer h2 {
+  color: #03dafc;
+}
+
+/* ==== ABOUT US ==== */
+.about__txt,
+.about__func,
+.about__info {
+  margin: 1.5rem 0;
+}
+
+.about__time {
+  margin-top: 1rem;
+}
+
+.about__func a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about__func a + a {
+  margin-left: 1rem;
+}
+
+.about__func a + a::before {
+  content: "";
+  padding-left: 1rem;
+  border-left: solid 1px #fff;
+}
+
+.about__func a:hover {
+  text-decoration: underline #fff solid;
+}
+
+/* ==== LEGAL, SUPPORT ==== */
+.legal p,
+.support p {
+  margin-top: 2rem;
+}
+
+.legal a,
+.support a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.legal a:hover,
+.support a:hover {
+  text-decoration: underline #fff solid;
+}

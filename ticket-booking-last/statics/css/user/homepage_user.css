@@ -1,0 +1,46 @@
+.wrapper {
+  margin-top: 8rem;
+}
+
+.function {
+  padding: 3rem;
+}
+
+.function h1 {
+  padding: 2rem 0;
+}
+
+.function-data td {
+  padding: 1rem 2rem;
+}
+
+.function-data a {
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.function-data a:hover {
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0.5rem;
+  background-color: #628ce2;
+}
+
+.function-data .warning:hover {
+  background-color: #da5656;
+}
+
+.function-data a::after {
+  content: "";
+  display: inline-block;
+  transform: translate(1rem, 0.2rem);
+  border-left: solid 1rem #fff;
+  border-top: solid 1rem transparent;
+  border-bottom: solid 1rem transparent;
+}
+
+.footer {
+  transform: translateY(55%);
+}
